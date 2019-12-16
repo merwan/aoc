@@ -1,6 +1,6 @@
-# Aoc
+# Advent of Code
 
-**TODO: Add description**
+Advent of Code in Elixir
 
 ## Installation
 
