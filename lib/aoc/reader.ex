@@ -1,7 +1,7 @@
 defmodule Aoc.Reader do
   def lines(year, day) do
     filename(year, day)
-    |> File.stream!
+    |> File.stream!()
     |> Stream.map(&String.trim/1)
   end
 
@@ -12,7 +12,7 @@ defmodule Aoc.Reader do
 
   defp format(day) do
     day
-    |> Integer.to_string
+    |> Integer.to_string()
     |> String.pad_leading(2, "0")
   end
 end
